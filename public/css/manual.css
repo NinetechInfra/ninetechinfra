@@ -1,0 +1,300 @@
+:root {
+  --scheme-color: #90c3c8;
+  --contact-text: #728394;
+  --icon-color: #1f5673;
+}
+* {
+  outline: none !important;
+}
+html {
+  overflow-x: hidden;
+}
+.m-auto {
+  margin: auto !important;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.initiative-class {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+@media screen and (max-width: 678px) {
+  .initiative-class {
+    flex-basis: auto;
+  }
+}
+
+.mx-1 {
+  margin: 0 1rem !important;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.px-3 {
+  padding: 0 3rem !important;
+}
+.fw-bold {
+  font-weight: bold !important;
+}
+ol li {
+  list-style: none;
+}
+dd {
+  font-size: 24px;
+}
+.freebirdFormviewerViewHeaderHeader {
+  display: none !important;
+}
+.line {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+  color: rgb(168, 178, 209);
+}
+
+.leftLine {
+  left: 1.5rem;
+  right: auto;
+}
+
+.vertical-line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0px;
+}
+
+.vertical-line li {
+  padding: 14px 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.vertical-line li a i {
+  color: rgb(58, 179, 62);
+  font-size: 6em;
+}
+
+.vertical-line li:hover,
+.vertical-line li:focus {
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 14px 10px;
+}
+
+.remove-anchore-link a,
+.remove-anchore-link li {
+  text-decoration: none !important;
+  list-style: none !important;
+}
+.common-content {
+  position: absolute;
+  background-color: var(--text-white);
+  top: 0;
+  padding: 0em 1em;
+  font-size: 18px;
+}
+.left-content {
+  left: 0;
+}
+.right-content {
+  right: 0;
+}
+.text-gold {
+  color: var(--text-gold);
+}
+.rating-success {
+  background-color: var(--text-green) !important;
+}
+
+.projects-btn {
+  margin: 0.8em;
+}
+
+.inquiry-form {
+  width: 100%;
+  height: 1150px;
+}
+
+@media screen and (max-width: 991px) {
+  .inquiry-form {
+    height: 1250px;
+  }
+}
+@media screen and (max-width: 686px) {
+  .inquiry-form {
+    width: 400px;
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .inquiry-form {
+    width: 100%;
+    height: 1300px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .inquiry-form {
+    width: 300px;
+    height: 1350px;
+    overflow-x: hidden !important;
+  }
+}
+
+.hide-space {
+  display: inline;
+  /* height: 100px; */
+  background-color: #000;
+}
+
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  /* color: #5cdb95; */
+  color: var(--scheme-color);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 7px 0 0 2.5em;
+  font-size: 22px;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #05386b;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  margin-top: 0 !important;
+  font-size: 14px;
+  color: var(--contact-text);
+}
+.contact .info p a {
+  text-decoration: none;
+  color: var(--contact-text);
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #05386b;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+.marquee_status {
+  height: 26px;
+}
+
+.NineTech-logo {
+  position: relative;
+  top: -8px;
+}
+
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-instagram {
+  color: #b93aa8;
+}
+
+.stats-img i {
+  font-size: 2em !important;
+  color: var(--icon-color);
+}
+.con_inner_text li span {
+  font-size: 1.5em;
+}
+.table-color {
+  background-color: var(--scheme-color);
+  color: #fff;
+  text-align: center;
+}
+
+.table tr,
+.table th,
+tbody tr td div {
+  text-align: center;
+}
+
+.table th:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.table td {
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+}
+.table th:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+tbody tr td:first-child {
+  background-color: var(--scheme-color);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.contact-number li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  padding: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  .contact-number li {
+    display: block;
+  }
+}
+.address a,
+.email a,
+.phone a {
+  text-decoration: none !important;
+}
