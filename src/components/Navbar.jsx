@@ -18,7 +18,11 @@ const Navbar = ({ phone }) => {
         </div>
         <div className="right-content common-content">
           <span>
-            <a href={`tel:{phone}`} rel="noreferrer">
+            <a
+              href={`https://wa.me/${phone}?text=I'm interested in (your need Or write your Own message here)`}
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fab fa-whatsapp" /> {phone}
             </a>
           </span>
@@ -44,6 +48,7 @@ const Navbar = ({ phone }) => {
                   <div
                     className="navbar-brand logo"
                     onClick={() => window.location.reload(false)}
+                    data-tip="NineTech INFRA SOLUTION PVT LTD"
                   >
                     <span>
                       <Link to="/">
@@ -54,7 +59,8 @@ const Navbar = ({ phone }) => {
                           width="50px"
                           height="auto"
                         />
-                        NineTech
+                        <span className="logo-name"> NineTech</span>
+                        <span className="small-text">INFRA SOLN PVT LTD</span>
                       </Link>
                     </span>
                   </div>

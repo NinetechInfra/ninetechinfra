@@ -1,4 +1,5 @@
 import React from "react";
+import ProvideServiceList from "../components/ProvideServiceList";
 import Service from "../components/Service";
 import Tables from "../components/Tables";
 import {
@@ -7,6 +8,9 @@ import {
   servicehead,
   serviceTable,
 } from "../services/DataService";
+import mobileEquip from "../images/NineTech-mobile-testing-equipment.jpeg";
+import serviceOne from "../images/NineTech-Service-Testing.jpg";
+import serviceTwo from "../images/NineTech-Service-Testing-2.jpg";
 
 const ServicePage = (props) => {
   const { pathname: path } = props.location;
@@ -26,6 +30,16 @@ const ServicePage = (props) => {
         tablehead={servicehead}
         tablebody={servicebody}
         column={serviceTable}
+      />
+      <ProvideServiceList
+        mobileEquip={mobileEquip}
+        serviceOne={serviceOne}
+        serviceTwo={serviceTwo}
+        path="/about-us"
+        alt="about-img"
+        quote="dwld"
+        aosText="fade-down"
+        aosImg="fade-up"
       />
     </>
   );

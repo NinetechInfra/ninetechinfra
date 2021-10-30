@@ -3,6 +3,144 @@ const projectImg =
   "https://image.freepik.com/free-photo/overworked-workaholic-entrepreneur-woman-shwoing-marketing-graphs-using-tablet-overworking-company-solution-late-night-meeting-room_482257-2180.jpg";
 export const aboutimg =
   "https://image.freepik.com/free-photo/crop-architect-opening-blueprint_23-2147710985.jpg";
+export const NormalServiceListOneData = [
+  {
+    key: "list-1",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Geotechnical Services",
+  },
+  {
+    key: "list-2",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Topographical services",
+  },
+  {
+    key: "list-3",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Traffic and Transportation surveys",
+  },
+  {
+    key: "list-4",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "BBD",
+  },
+  {
+    key: "list-5",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Bump Integrator",
+  },
+  {
+    key: "list-6",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Construction Material Testing (Buildings & Roads)",
+  },
+  {
+    key: "list-7",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Plate Load & Bearing Testing",
+  },
+];
+export const NormalServiceListTwoData = [
+  {
+    key: "list-1",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Pile Dynamic & Integrity Testing (PIT & PDA)",
+  },
+  {
+    key: "list-2",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Static Load Test of Piles",
+  },
+  {
+    key: "list-3",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Project Management Consultancy",
+  },
+  {
+    key: "list-4",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Quality Audit & Control",
+  },
+  {
+    key: "list-5",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Third Party Investigation",
+  },
+  {
+    key: "list-6",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Proof Checking",
+  },
+  {
+    key: "list-7",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "DPR for Road Projects",
+  },
+  {
+    key: "list-8",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Structural Investigation of Roads and Bridges",
+  },
+  {
+    key: "list-9",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Road Safety Audit",
+  },
+];
+export const NormalServiceListThreeData = [
+  {
+    key: "list-1",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Core Cutter for concrete elements and Bituminous Layers",
+  },
+  {
+    key: "list-2",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Bitumen Extractor",
+  },
+  {
+    key: "list-3",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Sieves for soil and aggregates",
+  },
+  {
+    key: "list-4",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "NDT Setup for structures",
+  },
+  {
+    key: "list-5",
+    icon: rAngle,
+    aosList: "zoom-in",
+    para: "Soil insitu density test setup",
+  },
+  {
+    key: "list-6",
+    icon: rAngle,
+    aosList: "zoom-out",
+    para: "Dynamic Cone penetration test setup",
+  },
+];
 export const ListData = [
   {
     key: "list-1",
@@ -303,10 +441,9 @@ export const contactPage = {
     Karnataka`,
   addressUrl:
     "https://www.google.com/maps?q=12.941401481628418,77.49317932128906&z=17&hl=en",
-  email: "info.ninetechinfra@gmail.com",
-  phoneOne: "7019556969",
-  phoneTwo: "7204821038",
-  phoneThree: "9535584464",
+  email: "info@ninetechinfra.co.in",
+  whatsAppNo: "7019556969",
+  normalPhoneNo: "7204821038",
 };
 
 // inquiry services

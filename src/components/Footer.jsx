@@ -23,7 +23,7 @@ const Footer = (props) => {
           </div>
         </div>
         <p className="copyright">
-          © 2021 NineTech Infr Solution. All Rights Reserved | Design by
+          © 2021 NineTech Infr Solution PVT LTD. All Rights Reserved | Design by
           <a
             href="https://oneeyehealer.github.io"
             target="_blank"

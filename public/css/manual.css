@@ -298,3 +298,25 @@ tbody tr td:first-child {
 .phone a {
   text-decoration: none !important;
 }
+.small-text {
+  font-size: xx-small;
+  text-transform: capitalize;
+  position: relative;
+  top: 7px;
+  left: -128px;
+}
+
+@media screen and (max-width: 400px) {
+  .small-text {
+    font-size: 0.3em;
+  }
+}
+@media screen and (max-width: 392px) {
+  .small-text {
+    display: none;
+  }
+}
+.logo-name {
+  position: relative;
+  top: -12px;
+}

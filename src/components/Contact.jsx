@@ -65,26 +65,18 @@ const Contact = ({ data, head, src }) => {
                               <ul className="contact-number">
                                 <li>
                                   <a
-                                    href={`tel:${data.phoneOne}`}
-                                    data-tip={`Click here to call ${data.phoneOne}`}
+                                    href={`tel:${data.whatsAppNo}`}
+                                    data-tip={`Click here to call or what App on ${data.whatsAppNo}`}
                                   >
-                                    {data.phoneOne}
+                                    {data.whatsAppNo}
                                   </a>
                                 </li>
                                 <li>
                                   <a
-                                    href={`tel:${data.phoneTwo}`}
-                                    data-tip={`Click here to call ${data.phoneTwo}`}
+                                    href={`tel:${data.normalPhoneNo}`}
+                                    data-tip={`Click here to call ${data.normalPhoneNo}`}
                                   >
-                                    {data.phoneTwo}
-                                  </a>
-                                </li>
-                                <li>
-                                  <a
-                                    href={`tel:${data.phoneThree}`}
-                                    data-tip={`Click here to call ${data.phoneThree}`}
-                                  >
-                                    {data.phoneThree}
+                                    {data.normalPhoneNo}
                                   </a>
                                 </li>
                               </ul>

@@ -10,12 +10,13 @@ import ContactPage from "./pages/ContactPage";
 import ServicePage from "./pages/ServicePage";
 import ProjectPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
+import { contactPage } from "./services/DataService";
 
 function App() {
   return (
     <Router>
       <ReactTooltip />
-      <Navbar phone={9535584464} />
+      <Navbar phone={contactPage.whatsAppNo} />
       <ToastContainer />
       <Switch>
         <Route path="/" exact render={(props) => <HomePage {...props} />} />

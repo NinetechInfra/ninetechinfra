@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { rAngle } from "../../services/Icons";
-import Imgbox from "./Imgbox";
 
 const Listbox = ({ path, id, data, head, para, aosText, ...rest }) => {
   const [viewMore, setViewMore] = useState(false);
@@ -10,7 +9,6 @@ const Listbox = ({ path, id, data, head, para, aosText, ...rest }) => {
     <>
       {path === "/about-us" ? (
         <>
-          <Imgbox {...rest} />
           <div className="col-md-6 agileits_services_grid" data-aos={aosText}>
             <div className="col-md-12 agileits_services_grid">
               <h3>{head}</h3>

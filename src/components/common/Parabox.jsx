@@ -6,7 +6,6 @@ const Parabox = ({ path, aosText, ...rest }) => {
     <>
       {path === "/about-us" ? (
         <>
-          <Imgbox {...rest} />
           <div
             className="col-md-6 col-lg-6 agileits_services_grid"
             data-aos={aosText}
@@ -93,7 +92,7 @@ const Parabox = ({ path, aosText, ...rest }) => {
               which have made a mark in the assignments handled by our various
               divisions. <b>NINETECH</b> has one of its full-fledged Head Office
               located in Bangalore which is well equipped with the latest
-              computer software and technology.
+              computer software technology and Testing Equipments.
             </p>
           </div>
         </>

@@ -7,7 +7,9 @@ const Address = ({ data }) => {
         {data.map((item) => (
           <li key={item.key}>
             <span className={item.icon} aria-hidden="true" />
-            <a href={item.url}>{item.text}</a>
+            <a href={item.url} target="_blank" rel="noreferrer">
+              {item.text}
+            </a>
           </li>
         ))}
       </ul>
