@@ -19,7 +19,7 @@ const Navbar = ({ phone }) => {
         <div className="right-content common-content">
           <span>
             <a
-              href={`https://wa.me/${phone}?text=I'm interested in (your need Or write your Own message here)`}
+              href={`https://wa.me/91${phone}?text=I'm interested in (your need Or write your Own message here)`}
               target="_blank"
               rel="noreferrer"
             >
